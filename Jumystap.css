@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.class-item {
+    display: flex; 
+    flex-direction: row; 
+    background-color: #F1F1F1; 
+    height: 92px; 
+    width: 1470px;
+}
+
+.class2 {
+    display: flex; 
+    justify-content: row;
+}
+.list-item {
+    list-style-type: none;
+    margin-right: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.text-jumystap {
+    font-family: 'Kanit', sans-serif; 
+    font-style: normal; 
+    color: black;
+}
+.ul{
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 760px; 
+    margin-top: 22px; 
+    justify-content: space-around;
+    background-color: #F1F1F1;
+}
+@media screen and (max-width: 420px) 
+and (min-width: 0px)
+              {
+    .ul{display: none;  
+    } 
+    .class2{    
+    width: 118px;
+    height: 22px;
+    }
+    .size1{
+        width: 18.68px;
+        height: 22px;   
+        margin-top: 20px; 
+        margin-left: 24px;  
+        }
+    .buttons{
+    width: 118px;
+    height: 38px;
+    }
+    .class-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* padding: 12px 24px; */
+        width: 420px;
+        height: 62px;
+
+    }
+    .image-2{
+        display: flex;
+        align-self: flex-start;
+        width: 312px;
+        height: 210px;
+    }
+    
+    .div2{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        /* height: 618px; */
+        background-color: #F1F1F1;
+    }
+    .image-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+.image-1 {
+    display: flex; 
+    align-items: end;
+}
+.size1 { 
+    width: 18.68px; 
+    height: 22px; 
+    margin-top: 20px; 
+    margin-left: 80px; 
+    margin-right: 10px;
+}
+.description {
+    background-color: #F1F1F1; 
+    height: 989px; 
+    width: 1470px;
+    display: flex;
+    flex-direction: column;
+}
+.gethired {
+    font-family: 'Kanit';
+    width: 495px;
+    height: 192px;
+    margin-left: 80px;
+    margin-right: 131px;
+    margin-top: 189px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+}
+.text2 {
+    font-family: 'Inter';
+    width: 495px;
+    height: 44px;
+    margin-left: 80px;
+    margin-right: 131px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.color{
+    background-color: #F1F1F1;
+}
+.color2{
+    width: 1470px;
+    height: 562px;
+    background-color: #E1DEE7;
+    border-radius: 32px;
+}
+.color3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textLorem{
+    width: 169px;
+    height: 16px;
+    margin-top: 103px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.text3{
+    margin-top: 12px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    color: #000000;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.div2 {
+    display: flex;
+    flex-direction: row;
+}
+/* style="margin-top: 150px;" */
+.image-2 {
+    height: 458px; 
+    width: 687px;
+}
+.class3{
+    display: flex; 
+    flex-direction: column;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    border-radius: 100px;
+    width: 102px;
+    height: 38px;
+    margin-top: 12px;
+    margin-right: 28px;
+    background: rgba(8, 30, 52, 0.12);
+
+}
+/* /How it Works? */
+.button2 {
+    background-color:#712FFF;
+    width: 144px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color:#FFFFFF;
+    padding: 16px, 24px, 16px, 24px;
+}
+.content-texts {
+    font-style: normal;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.button3 {
+    background-color:#712FFF;
+    width: 106px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color:#FFFFFF;
+    padding: 16px, 24px, 16px, 24px; 
+}
+.button4 {
+    background-color:#712FFF;
+    width: 114px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color:#FFFFFF;
+    padding: 16px, 24px, 16px, 16px;
+}
+.text4 {
+    height: 28px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 24px;
+}
+.text5 {
+    height: 22px;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.text6 {
+    font-family: 'Kanit';
+    width: 700px;
+    height: 64px;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 54px;
+    margin: unset;
+    margin-left: 80px;
+    margin-top: 100px;
+    line-height: 64px;
+}
+.text7 {
+    font-family: 'Inter';
+    width: 495px;
+    height: 44px;
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.box {
+    display: flex; 
+    flex-direction: row; box-sizing: border-box; width: 619px;
+    height: 50px;
+    margin-left: 80px;
+    border-color: #E1DEE7;
+    background-color: white;
+}
+.text8 {
+    color: #E1DEE7;
+    font-family: 'Inter';
+    width: 495px;
+    height: 22px;
+    margin-left: 12px;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.text9 {
+    font-family: 'Kanit';
+    width: 391px;
+    height: 56px;
+    margin: unset;
+    margin-top: 110px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+}
+.text10 {
+    font-family: 'Inter';
+    width: 495px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.box2 {
+    width: 48px; 
+    height: 18px; 
+    margin-top: 16px; 
+    margin-bottom: 16px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.class4 {
+    align-items: flex-start;
+    width: 1470px; height: 172px; 
+    background-color: #FFFFFF;
+    border-radius: 100px
+}
+.text11 {
+    height: 18px; width: 779px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 117px;
+    margin-top: 32px;
+    color: #E1DEE7;
+}
+.text12 {
+    width: 248px;
+    height: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-bottom: 42px;
+}
